@@ -15,7 +15,7 @@
   <body>
     <header class="site-header" role="banner">
       <div class="wrapper">
-        <a class="site-title" rel="author" href="index.html">Tehnologii Web</a>
+        <a class="site-title" rel="author" href="/web/">Tehnologii Web</a>
         <nav class="site-nav">
           <input type="checkbox" id="nav-trigger" class="nav-trigger" />
           <label for="nav-trigger">
@@ -50,16 +50,13 @@
           >
             <header class="post-header">
               <h1 class="post-title p-name" itemprop="name headline">
-                Laboratorul 4
+                Laboratorul 11
               </h1>
 
-              <span class="post-meta"> Proiecte </span>
+              <span class="post-meta"> Servicii-Web </span>
               ,
 
-              <span class="post-meta"> Recapitulare </span>
-              ,
-
-              <span class="post-meta"> Design-si-Interacţiune-Web </span>
+              <span class="post-meta"> REST </span>
             </header>
 
             <div class="post-content e-content" itemprop="articleBody">
@@ -75,90 +72,99 @@
                   <br />
                   Curs:
                   <a
-                    href="https://profs.info.uaic.ro/~busaco/teach/courses/web/presentations/web05DezvoltareaAplicatiilorWeb-PHP.pdf"
+                    href="https://profs.info.uaic.ro/~busaco/teach/courses/web/presentations/web09ServiciiWeb-REST.pdf"
                     target="_blank"
-                    >Programare Web – Arhitectura aplicaţiilor Web. Servere de
-                    aplicaţii Web. PHP
+                    >Servicii Web. Arhitecturi bazate pe servicii. Paradigma
+                    REST
+                  </a>
+                  <br />
+                  Vezi si suplimentul web:
+                  <a
+                    href="https://profs.info.uaic.ro/~busaco/teach/courses/web/presentations/web-ServiciiWeb-SOA-SOAP-WSDL-UDDI.pdf"
+                  >
+                    Servicii Web. SOAP, WSDL şi UDDI
                   </a>
                 </p>
               </blockquote>
 
               <blockquote class="slides">
                 <a
-                  href="https://docs.google.com/presentation/d/e/2PACX-1vQAPe3Z0dPuFTZqV9E9x4AoAsWgGtdb3ZYt-IcHa6rpqILbRRVBgMRPYo6pAIK0kPPZD0UMqYEmJV5d/pub?start=false&amp;loop=false&amp;delayms=3000"
+                  href="https://docs.google.com/presentation/d/e/2PACX-1vTX5TadZy1j4cmc7Z9MrvCoU9Bsl65_jorx3gKNEsTY-wZaPP3tMTOxE7yi05LGiNGKvAxkyFzF3fOr/pub?start=false&amp;loop=false&amp;delayms=3000"
                   class="slides-link"
                   >Slide-uri laborator</a
                 >
               </blockquote>
 
+              <h3 id="️-instrumente-recomandate">⚙️ Instrumente recomandate</h3>
+              <ul>
+                <li>
+                  Client API -
+                  <a href="https://www.postman.com/" target="_blank">Postman</a>
+                </li>
+              </ul>
+
               <h3 id="-resurse">📖 Resurse</h3>
               <ul>
                 <li>
-                  <a href="http://getbem.com/introduction" target="_blank"
-                    >BEM - Introduction</a
+                  <a href="https://www.php.net/manual/en/curl.examples.php"
+                    >PHP cURL</a
                   >
                 </li>
+                <li>
+                  <a href="https://www.restapitutorial.com/"
+                    >Learn REST: A RESTful Tutorial</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.programmableweb.com/apis/directory"
+                    >ProgrammableWeb</a
+                  >
+                </li>
+                <li>
+                  <a href="https://apilist.fun" target="_blank"
+                    >API List: A public list of free APIs for programmers</a
+                  >
+                </li>
+                <li>
+                  <a href="https://rapidapi.com/collection/list-of-free-apis"
+                    >Free Public APIs for Developers</a
+                  >
+                </li>
+                <li><a href="https://http.cat/">HTTP Cats</a></li>
                 <li>
                   <a
-                    href="https://sparkbox.com/foundry/bem_by_example"
+                    href="https://www.ibm.com/docs/en/rbd/9.6?topic=overview-service-oriented-architecture-soa"
+                    >Service-oriented architecture (SOA)</a
+                  >
+                </li>
+                <li>
+                  Mai multe instrumente interesante se gasesc
+                  <a
+                    href="https://profs.info.uaic.ro/~busaco/teach/courses/web/demos/"
                     target="_blank"
-                    >BEM by Example</a
-                  >
-                </li>
-                <li>
-                  <a href="https://css-tricks.com/bem-101/" target="_blank"
-                    >BEM 101</a
-                  >
-                </li>
-                <li>
-                  <a href="https://sass-lang.com/guide" target="_blank"
-                    >Sass Basics</a
-                  >
-                </li>
-                <li>
-                  <a href="https://sass-guidelin.es" target="_blank"
-                    >Sass Guidelines</a
-                  >
+                    >aici (@busaco/demos)
+                  </a>
+                  ⭐
                 </li>
               </ul>
 
               <h3 id="-exerciții-laborator">💻 Exerciții laborator</h3>
-
               <ul>
                 <li>
                   <span
-                    >Exercitiul 1 - Sa se refactorizeze codul dupa metodologia
-                    BEM
-                  </span>
+                    >Exercitiul 1 - Sa se implementeze un API REST ce ofera
+                    suport pentru citire, creere, actualizare si stergere a unei
+                    resurse si a unei colectii de resurse. Datele vor fi tinute
+                    intr-un vector. La fiecare apel se va afisa noua stare a
+                    vectorului. Atentie la codurile de stare.</span
+                  >
                   <ul>
                     <li>
-                      <a
-                        href="https://raw.githubusercontent.com/victorvlad19/web/master/_posts/code/bem.html"
-                        target="_blank"
-                        >bem.html</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        href="https://raw.githubusercontent.com/victorvlad19/web/master/_posts/code/bem.css"
-                        target="_blank"
-                        >bem.css</a
+                      <a href="https://www.restapitutorial.com/" target="_blank"
+                        >Tutorial</a
                       >
                     </li>
                   </ul>
-                </li>
-                <li>
-                  <span
-                    >Exercitiul 2 - Sa se refactorizeze codul de la exercitiul 1
-                    folosind SCSS sau SASS
-                  </span>
-                </li>
-                <li>
-                  <span
-                    >Exercitiul 3 - Sa se construiasca o pagina de omagiu a unei
-                    personalitati din informatica folosind toate cunonstintele
-                    din laboratoarele anterioare</span
-                  >
                 </li>
               </ul>
 
@@ -169,34 +175,14 @@
                 >. Mesajele trimise trebuie să aibă în câmpul Subject prefixul
                 #web urmat de numarul laboratorului, numele studentului si
                 grupa. Corpul mesajului trebuie sa contina numarul exercitiului
-                si un
-                <a
-                  href="https://github.com/victorvlad19/web/raw/master/_posts/imagini/JSFiddle_Link.png"
-                  target="_blank"
-                  >link</a
-                >
-                de
-                <a href="https://jsfiddle.net" target="_blank">JSFiddle</a> cu
+                si un link de
+                <a href="https://replit.com" target="_blank">Replit</a> cu
                 rezolvarea.
-              </p>
-
-              <h3 id="-exerciții-suplimentare">🏠 Exerciții suplimentare</h3>
-              <p>
-                <a
-                  href="https://gist.github.com/intersim/892601df6835805ea26ea6e36d3b0db8"
-                  target="_blank"
-                  >SCSS Exercises</a
-                >,
-                <a
-                  href="https://www.codingame.com/playgrounds/166/sass"
-                  target="_blank"
-                  >SASS - CodinGame</a
-                >,
               </p>
             </div>
             <a
               class="u-url"
-              href="/web/proiecte/recapitulare/design-si-interac%C5%A3iune-web/2022/03/08/laborator-4.html"
+              href="/web/servicii-web/rest/2022/03/08/laborator-11.html"
               hidden
             ></a>
           </article>

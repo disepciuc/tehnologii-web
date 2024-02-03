@@ -15,7 +15,7 @@
   <body>
     <header class="site-header" role="banner">
       <div class="wrapper">
-        <a class="site-title" rel="author" href="index.html">Tehnologii Web</a>
+        <a class="site-title" rel="author" href="/web/">Tehnologii Web</a>
         <nav class="site-nav">
           <input type="checkbox" id="nav-trigger" class="nav-trigger" />
           <label for="nav-trigger">
@@ -50,16 +50,19 @@
           >
             <header class="post-header">
               <h1 class="post-title p-name" itemprop="name headline">
-                Laboratorul 4
+                Laboratorul 9
               </h1>
 
-              <span class="post-meta"> Proiecte </span>
+              <span class="post-meta"> PHP </span>
               ,
 
-              <span class="post-meta"> Recapitulare </span>
+              <span class="post-meta"> XML </span>
               ,
 
-              <span class="post-meta"> Design-si-Interacţiune-Web </span>
+              <span class="post-meta"> SVG </span>
+              ,
+
+              <span class="post-meta"> Vanilla-Javascript </span>
             </header>
 
             <div class="post-content e-content" itemprop="articleBody">
@@ -77,15 +80,14 @@
                   <a
                     href="https://profs.info.uaic.ro/~busaco/teach/courses/web/presentations/web05DezvoltareaAplicatiilorWeb-PHP.pdf"
                     target="_blank"
-                    >Programare Web – Arhitectura aplicaţiilor Web. Servere de
-                    aplicaţii Web. PHP
+                    >Procesarea datelor XML &amp; HTML. Document Object Model
                   </a>
                 </p>
               </blockquote>
 
               <blockquote class="slides">
                 <a
-                  href="https://docs.google.com/presentation/d/e/2PACX-1vQAPe3Z0dPuFTZqV9E9x4AoAsWgGtdb3ZYt-IcHa6rpqILbRRVBgMRPYo6pAIK0kPPZD0UMqYEmJV5d/pub?start=false&amp;loop=false&amp;delayms=3000"
+                  href="https://docs.google.com/presentation/d/e/2PACX-1vTMNTM6TAKde3tCUZCes04TjyGSupKOohIXowRYThmw1Alfp12jbr6mqWTtBI6u21oa_zBNRe_DZVih/pub?start=false&amp;loop=false&amp;delayms=3000"
                   class="slides-link"
                   >Slide-uri laborator</a
                 >
@@ -94,109 +96,148 @@
               <h3 id="-resurse">📖 Resurse</h3>
               <ul>
                 <li>
-                  <a href="http://getbem.com/introduction" target="_blank"
-                    >BEM - Introduction</a
+                  <a
+                    href="https://profs.info.uaic.ro/~busaco/teach/courses/web/demos/xml-dom/xml-dom.zip"
+                    target="_blank"
+                    >Arhiva procesări XML şi HTML folosind DOM</a
                   >
                 </li>
                 <li>
                   <a
-                    href="https://sparkbox.com/foundry/bem_by_example"
+                    href="https://profs.info.uaic.ro/~busaco/teach/courses/web/demos/xml-dtd/xml-dtd.zip"
+                    >Exemple de validări folosind DTD</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.php.net/manual/en/class.domdocument.php"
+                    >DOMDocument class</a
+                  >
+                </li>
+                <li>
+                  <a href="https://youmightnotneedjquery.com/"
+                    >You Don’t Need jQuery</a
+                  >
+                </li>
+                <li>
+                  <a href="https://eloquentjavascript.net/"
+                    >Eloquent Javascript</a
+                  >
+                </li>
+                <li><a href="https://htmldom.dev/">Htmldom.dev</a></li>
+                <li>
+                  <a
+                    href="https://profs.info.uaic.ro/~busaco/teach/courses/web/demos/xml/svg.zip"
+                  >
+                    Arhiva Grafică vectorială
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/willianjusten/awesome-svg#readme"
+                    >Awesome Svg</a
+                  >
+                </li>
+                <li><a href="https://nodesign.dev/">Nodesign.dev</a></li>
+                <li>
+                  <a href="https://www.svgbackgrounds.com/">Svg Backgrounds </a>
+                </li>
+                <li><a href="https://getwaves.io/">getwaves.io</a></li>
+                <li><a href="https://www.blobmaker.app/">blobmaker.app</a></li>
+                <li>
+                  Mai multe instrumente interesante se gasesc
+                  <a
+                    href="https://profs.info.uaic.ro/~busaco/teach/courses/web/demos/"
                     target="_blank"
-                    >BEM by Example</a
-                  >
-                </li>
-                <li>
-                  <a href="https://css-tricks.com/bem-101/" target="_blank"
-                    >BEM 101</a
-                  >
-                </li>
-                <li>
-                  <a href="https://sass-lang.com/guide" target="_blank"
-                    >Sass Basics</a
-                  >
-                </li>
-                <li>
-                  <a href="https://sass-guidelin.es" target="_blank"
-                    >Sass Guidelines</a
-                  >
+                    >aici (@busaco/demos)
+                  </a>
+                  ⭐
                 </li>
               </ul>
 
               <h3 id="-exerciții-laborator">💻 Exerciții laborator</h3>
-
               <ul>
                 <li>
                   <span
-                    >Exercitiul 1 - Sa se refactorizeze codul dupa metodologia
-                    BEM
+                    ><a
+                      href="https://raw.githubusercontent.com/victorvlad19/web/master/_posts/imagini/L9_Ex1.png"
+                      >Exercitiul 1</a
+                    >
+                    - Folosind
+                    <b
+                      >DOMDocument, file_get_contents, getElementById,
+                      getElementsByTagName</b
+                    >
+                    sa se extraga dintr-o pagina de wikipedia la alegere:
+                    titlul, imaginea de coperta si un paragraf descriptiv.
                   </span>
                   <ul>
                     <li>
                       <a
-                        href="https://raw.githubusercontent.com/victorvlad19/web/master/_posts/code/bem.html"
+                        href="https://raw.githubusercontent.com/victorvlad19/web/master/_posts/code/9/index.php"
                         target="_blank"
-                        >bem.html</a
+                        >index.php</a
                       >
                     </li>
                     <li>
                       <a
-                        href="https://raw.githubusercontent.com/victorvlad19/web/master/_posts/code/bem.css"
+                        href="https://raw.githubusercontent.com/victorvlad19/web/master/_posts/code/9/parser.php"
                         target="_blank"
-                        >bem.css</a
+                        >parser.php</a
                       >
                     </li>
                   </ul>
                 </li>
                 <li>
                   <span
-                    >Exercitiul 2 - Sa se refactorizeze codul de la exercitiul 1
-                    folosind SCSS sau SASS
+                    ><a
+                      href="https://raw.githubusercontent.com/victorvlad19/web/master/_posts/imagini/L9_Ex2.png"
+                      >Exercitiul 2</a
+                    >
+                    - Folosind SVG sa se implementeze imaginea
                   </span>
-                </li>
-                <li>
-                  <span
-                    >Exercitiul 3 - Sa se construiasca o pagina de omagiu a unei
-                    personalitati din informatica folosind toate cunonstintele
-                    din laboratoarele anterioare</span
-                  >
+                  <ul>
+                    <li>
+                      <a
+                        href="https://developer.mozilla.org/en-US/docs/Web/SVG/Element/line"
+                        target="_blank"
+                        >Linie</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://developer.mozilla.org/en-US/docs/Web/SVG/Element/circle"
+                        target="_blank"
+                        >Cerc</a
+                      >
+                    </li>
+                  </ul>
                 </li>
               </ul>
 
               <p>
-                Rezolvarile se vor trimite pe adresa
-                <a href="mailto:victorvlad.web@gmail.com" target="_blank"
-                  >victorvlad.web@gmail.com</a
-                >. Mesajele trimise trebuie să aibă în câmpul Subject prefixul
-                #web urmat de numarul laboratorului, numele studentului si
-                grupa. Corpul mesajului trebuie sa contina numarul exercitiului
-                si un
-                <a
-                  href="https://github.com/victorvlad19/web/raw/master/_posts/imagini/JSFiddle_Link.png"
-                  target="_blank"
-                  >link</a
-                >
-                de
-                <a href="https://jsfiddle.net" target="_blank">JSFiddle</a> cu
-                rezolvarea.
+                Rezolvarile se vor trimite pe adresa victorvlad.web@gmail.com.
+                Mesajele trimise trebuie să aibă în câmpul Subject prefixul #web
+                urmat de numarul laboratorului, numele studentului si grupa.
+                Corpul mesajului trebuie sa contina numarul exercitiului si un
+                link de Replit cu rezolvarea.
               </p>
 
               <h3 id="-exerciții-suplimentare">🏠 Exerciții suplimentare</h3>
               <p>
                 <a
-                  href="https://gist.github.com/intersim/892601df6835805ea26ea6e36d3b0db8"
+                  href="https://www.w3resource.com/javascript-exercises"
                   target="_blank"
-                  >SCSS Exercises</a
+                  >W3resource JavaScript - Exercises </a
                 >,
                 <a
-                  href="https://www.codingame.com/playgrounds/166/sass"
+                  href="https://www.w3schools.com/js/exercise_js.asp"
                   target="_blank"
-                  >SASS - CodinGame</a
-                >,
+                  >W3schools JavaScript - Exercises</a
+                >
               </p>
             </div>
             <a
               class="u-url"
-              href="/web/proiecte/recapitulare/design-si-interac%C5%A3iune-web/2022/03/08/laborator-4.html"
+              href="/web/php/xml/svg/vanilla-javascript/2022/03/08/laborator-9.html"
               hidden
             ></a>
           </article>
