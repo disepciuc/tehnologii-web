@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head id="head">
+    <title>Un mic exemplu</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Site-ul meu</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#">Acasa</a></li>
+        <li><a href="#">Despre</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h2>Bine ati venit pe site-ul meu</h2>
+      <p>Acesta este un mic site demonstrativ</p>
+      <button onclick="addCSS()" id="button">Activeaza/Dezactiveaza CSS</button>
+    </main>
+    <footer>
+      <p>Copyright © Daniel Isepciuc</p>
+    </footer>
+    <script>
+      let counter = 0;
+      function addCSS() {
+        counter++;
+        if (counter % 2 !== 0) {
+          document.getElementById("head").innerHTML =
+            '  <title>Example HTML Website</title> \n<link rel="stylesheet" href="intro.css" />';
+        } else {
+          document.getElementById("head").innerHTML =
+            "  <title>Example HTML Website</title> ";
+        }
+      }
+    </script>
+  </body>
+</html>
