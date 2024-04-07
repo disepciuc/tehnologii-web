@@ -5,7 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="main.css" />
-    <title>Lab 7</title>
+    <link
+      type="application/atom+xml"
+      rel="alternate"
+      href="/web/feed.xml"
+      title="Tehnologii Web"
+    />
+    <title>Laboratorul 10</title>
   </head>
   <body>
     <header class="site-header" role="banner">
@@ -39,13 +45,16 @@
           >
             <header class="post-header">
               <h1 class="post-title p-name" itemprop="name headline">
-                Laboratorul 7
+                Laboratorul 10
               </h1>
 
-              <span class="post-meta"> PHP </span>
+              <span class="post-meta"> AJAX </span>
               ,
 
-              <span class="post-meta"> MVC </span>
+              <span class="post-meta"> Fetch-API </span>
+              ,
+
+              <span class="post-meta"> Proiecte </span>
             </header>
 
             <div class="post-content e-content" itemprop="articleBody">
@@ -118,44 +127,67 @@
               </blockquote>
 
               <blockquote class="slides">
-                <a href="Lab7/lab7.pdf" class="slides-link"
+                <a href="Lab9/lab10.pdf" class="slides-link"
                   >Slide-uri laborator</a
                 >
               </blockquote>
 
+              <h3 id="️-instrumente-recomandate">⚙️ Instrumente recomandate</h3>
+              <ul>
+                <li>
+                  Client API -
+                  <a href="https://www.postman.com/" target="_blank">Postman</a>
+                </li>
+              </ul>
+
               <h3 id="-resurse">📖 Resurse</h3>
               <ul>
                 <li>
-                  <a
-                    href="https://www.youtube.com/playlist?list=PLfdtiltiRHWGXVHXX09fxXDi-DqInchFD"
+                  <a href="https://apilist.fun" target="_blank"
+                    >API List: A public list of free APIs for programmers</a
                   >
-                    Build a PHP MVC Application - Youtube
-                  </a>
+                </li>
+                <li>
+                  <a href="https://rapidapi.com/collection/list-of-free-apis"
+                    >Free Public APIs for Developers</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.w3schools.com/js/js_ajax_intro.asp"
+                    >AJAX Introduction</a
+                  >
                 </li>
                 <li>
                   <a
-                    href="https://refactoring.guru/design-patterns/php"
+                    href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+                    >Fetch API</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://web.dev/introduction-to-fetch/#xmlhttprequest"
+                    >XMLHttpRequest vs Fetch</a
+                  >
+                </li>
+                <li><a href="https://github.com/axios/axios">Axios</a></li>
+                <li>
+                  <a href="https://vanillalist.top"
+                    >The Vanilla JavaScript Repository</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.w3schools.com/jsref/dom_obj_event.asp"
+                    >HTML DOM Events</a
+                  >
+                </li>
+                <li>
+                  Mai multe instrumente interesante se gasesc
+                  <a
+                    href="https://85.122.23.20/~busaco/teach/courses/web/demos/"
                     target="_blank"
-                    >Design Patterns in PHP</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="https://medium.com/@noufel.gouirhate/create-your-own-mvc-framework-in-php-af7bd1f0ca19"
-                  >
-                    Medium - Explanation of MVC
+                    >aici (@busaco/demos)
                   </a>
-                </li>
-                <li>
-                  <a href="https://phptherightway.com/#templating"
-                    >PHP Templating</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="https://www.youtube.com/watch?v=k9ak_rv9X0Y&amp;list=PLfdtiltiRHWGXSggf05W-pJbD47-_d8bJ"
-                    >Unit testing with PHPUnit</a
-                  >
+                  ⭐
                 </li>
               </ul>
 
@@ -163,56 +195,43 @@
               <ul>
                 <li>
                   <span
-                    >Exercitiul 1 - Sa se refactorizeze codul din
-                    <a href="lab6.html">laboratorul 6 - exercitiul 1</a>
-                    dupa modelul de mai jos:
+                    >Exercitiul 1 - Folosind <b>AJAX</b> sa se construiasca un
+                    buton care de fiecare data cand este apasat pune intr-o
+                    lista o gluma din API-ul de mai jos.
                   </span>
                   <ul>
                     <li>
-                      <a href="Lab7/model.php.txt" target="_blank">Model.php</a>
-                    </li>
-                    <li>
-                      <a href="Lab7/view.php.txt" target="_blank">View.php</a>
-                    </li>
-                    <li>
-                      <a href="Lab7/controller.php.txt" target="_blank"
-                        >Controller.php</a
+                      <a href="https://api.chucknorris.io/" target="_blank"
+                        >chucknorris.io</a
                       >
-                    </li>
-                    <li>
-                      <a href="Lab7/dispatcher.php.txt" target="_blank"
-                        >Dispatcher.php
-                      </a>
                     </li>
                   </ul>
                 </li>
                 <li>
                   <span
-                    ><a
-                      href="https://miro.medium.com/max/977/1*I9mpgAX_OpaJa35jiQfUVg.png"
+                    ><a href="https://www.w3schools.com/js/js_ajax_php.asp"
                       >Exercitiul 2</a
                     >
-                    - Sa se implementeze dispatcher-ul pentru url-ul din imagine
+                    - Folosind <b>Fetch API si PHP</b> sa se adauge gluma
+                    primita la exercitiul 1 intr-o baza de date locala
                   </span>
                 </li>
               </ul>
+
               <h3 id="-exerciții-suplimentare">🏠 Exerciții suplimentare</h3>
               <p>
                 <a
-                  href="https://www.w3schools.com/php/exercise.asp"
+                  href="https://education.launchcode.org/js-independent-track/chapters/fetch-json/exercises.html#exercises-fetch"
                   target="_blank"
-                  >W3schools PHP Exercises</a
+                  >Fetch &amp; JSON </a
                 >,
-                <a href="https://www.learn-php.org" target="_blank"
-                  >Learn PHP
-                </a>
+                <a
+                  href="https://gist.github.com/pamelafox/3926362"
+                  target="_blank"
+                  >Ajax Exercises</a
+                >
               </p>
             </div>
-            <a
-              class="u-url"
-              href="/web/php/mvc/2022/03/08/laborator-7.html"
-              hidden
-            ></a>
           </article>
         </div>
       </section>
